@@ -1,0 +1,14 @@
+.home-container {
+  background: #f9f9f9;
+  padding: 20px 2% 20px 17%;
+}
+.large-container {
+  padding-left: 7%;
+}
+
+@media (max-width: 900px) {
+  .large-container,
+  .home-container {
+    padding: 0 5%;
+  }
+}
